@@ -1,0 +1,64 @@
+/* Header Style */
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+/* Logo Style */
+.logo {
+}
+/* Menu Container */
+.menu-container {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+}
+/* Menu Links Style */
+.menu-link {
+    color: ;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px; /*Adjust*/
+}
+/* Banner Section Style */
+.hero {
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+/* Banner Content */
+#h1 {
+    width: 684px;
+    height: 151px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #FFFFFF;
+}
+/* Button Style*/
+.button{
+    width: 162px;
+    height: 44px;
+    background:#C271FF;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-wrap: nowrap;
+
+}
+/* Pro Images Style */
+/* Pro Info Style */
+/* Main Section Style */
+/* Quote Section Style */
+/* Quote Images Style */
+/* Quote Text Style */
+/* Quote Author Style */
+/* Video Section Style */
+
+/* Membership Section Style */
+/* Footer Style */
+/* Footer Content Style */
