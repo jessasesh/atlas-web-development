@@ -1,8 +1,14 @@
+.body {
+    background-color: #071629;
+    color: #FFFFFF;
+}
 /* Header Style */
 .header {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 /* Logo Style */
 .logo {
@@ -15,31 +21,50 @@
 }
 /* Menu Links Style */
 .menu-link {
-    color: ;
+    display: flex;
+    color: #FFFFFF;
     font-family: sans-serif;
     font-size: 12px;
     font-weight: 700;
     padding: 10px; /*Adjust*/
+    text-decoration: none;
 }
-/* Banner Section Style */
-.hero {
-    background-color: #071629;
+/* Banner Container */
+.hero-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    color: #FFFFFF;
+    background-color: #071629;
 }
 /* Banner Content */
-#h1 {
-    width: 684px;
-    height: 151px;
+.hero-h1 {
+    display: flex;
+    justify-content: center;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 120px;
-    color: #FFFFFF;
+    text-wrap: nowrap;
+    margin-bottom: 0px;
+}
+.hero-p {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 /* Button Style*/
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 162px;
     height: 44px;
     background:#C271FF;
@@ -48,17 +73,106 @@
     font-weight: 600;
     font-size: 14px;
     text-wrap: nowrap;
-
+    padding: 10px;
+    margin-top: 25px;
+}
+.pro-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: normal;
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+.colortext {
+    color: #C271FF;
+    font-family: sans-serif;
+    font-weight: 700;
 }
 /* Pro Images Style */
 /* Pro Info Style */
+.pro-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.pro-photo {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    border-radius: 50%;
+}
+.pro-name {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+}
+.pro-text {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
 /* Main Section Style */
 /* Quote Section Style */
 /* Quote Images Style */
+.quote-photo {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    border-radius: 50%;
+}
 /* Quote Text Style */
 /* Quote Author Style */
 /* Video Section Style */
 
 /* Membership Section Style */
+
+.memb-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: normal;
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+.memb-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+    margin: 50px;
+}
+.memb-logo {
+    display: flex;
+    justify-content: center;
+}
+.memb-type {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.memb-text {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
 /* Footer Style */
 /* Footer Content Style */
