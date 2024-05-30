@@ -36,6 +36,7 @@
     align-items: center;
     background-color: #071629;
     height: 1093px;
+    background-image: url('images/background.png')
 }
 /* Banner Content */
 .hero-h1 {
@@ -75,6 +76,8 @@
     text-wrap: nowrap;
     padding: 10px;
     margin-top: 25px;
+    border-radius: 20px;
+    
 }
 .bottom-button {
     display: flex;
@@ -102,13 +105,13 @@
 .pro-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
 }
 .pro-photo {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly
     height: 150px;
-    border-radius: 50%;
 }
 .pro-name {
     display: flex;
@@ -126,6 +129,9 @@
     font-size: 16px;
     text-align: center;
 }
+.pro-position {
+    padding-left: 25px;
+}
 /* Main Section Style */
 /* Testimony Section Style */
 .testimony-container {
@@ -139,7 +145,6 @@
 .quote-section {
     display: flex;
     flex-direction: column;
-
 }
 /* Quote Images Style */
 .quote-photo {
@@ -148,9 +153,24 @@
     height: 150px;
     border-radius: 50%;
 }
+.quote-postion {
+    display: flex;
+    margin-left: 10px;
+}
 /* Quote Text Style */
 /* Quote Author Style */
 /* Video Section Style */
+.tutorials-container{
+    background-color: #FFFFFF;
+    color: #071629;
+}
+.tutorials-title {
+    display: flex;
+    justify-content: center;
+}
+.video-section {
+    display: flex;
+}
 
 /* Membership Section Style */
 
@@ -170,12 +190,14 @@
     justify-content: center;
     gap: 100px;
     padding: 10px;
-    margin: 50px;
-    height: 502px;
+    margin: 100px;
+    margin-bottom: 0px;
+    height: 150px;
 }
 .memb-logo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-left: 75px;
 }
 .memb-type {
     display: flex;
@@ -192,6 +214,7 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    
 }
 /*FAQ */
 .faq-container {
@@ -205,24 +228,39 @@
 .faq-title {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding: 25px;
 }
 .faq-info {
     display: flex;
-    width: 1500px;
-    height: 1000px;
-    gap: 300px;
+    width: 1000px;
+    height: 500px;
+    gap: 200px;
     justify-content: flex-end;
+    padding: 25px;
 }
+
 /* Footer Style */
 .footer-container{
     display: flex;
     background-color: #071629;
-    height: ;
+    height: 250px;
 }
 /* Footer Content Style */
+.logo-position {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
 .icon-social {
-
+    display: flex;
+    align-items: center;
+    padding-left: 1000px;
 }
 
-.copyright-text
+.copyright-text {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
