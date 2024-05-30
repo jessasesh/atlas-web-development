@@ -33,9 +33,9 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     background-color: #071629;
+    height: 1093px;
 }
 /* Banner Content */
 .hero-h1 {
@@ -75,6 +75,11 @@
     text-wrap: nowrap;
     padding: 10px;
     margin-top: 25px;
+}
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
 .pro-title {
     display: flex;
@@ -122,7 +127,20 @@
     text-align: center;
 }
 /* Main Section Style */
-/* Quote Section Style */
+/* Testimony Section Style */
+.testimony-container {
+    display: flex;
+    justify-content: center;
+    background-color: #C271FF;
+    height: 392px;
+    align-items: center;
+
+}
+.quote-section {
+    display: flex;
+    flex-direction: column;
+
+}
 /* Quote Images Style */
 .quote-photo {
     display: flex;
@@ -153,6 +171,7 @@
     gap: 100px;
     padding: 10px;
     margin: 50px;
+    height: 502px;
 }
 .memb-logo {
     display: flex;
@@ -174,5 +193,36 @@
     font-size: 16px;
     text-align: center;
 }
+/*FAQ */
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #071629;
+}
+.faq-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.faq-info {
+    display: flex;
+    width: 1500px;
+    height: 1000px;
+    gap: 300px;
+    justify-content: flex-end;
+}
 /* Footer Style */
+.footer-container{
+    display: flex;
+    background-color: #071629;
+    height: ;
+}
 /* Footer Content Style */
+.icon-social {
+
+}
+
+.copyright-text
